@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "repo-shield"
+version = "0.1.0"
+description = "An offline CLI for detecting and redacting likely hardcoded secrets"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = []
+
+[project.scripts]
+repo-shield = "repo_shield.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
