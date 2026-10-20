@@ -1,0 +1,1 @@
+"""RepoShield: offline hardcoded-secret scanner."""
