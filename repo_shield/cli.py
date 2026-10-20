@@ -140,6 +140,7 @@ def main(argv: list[str] | None = None) -> int:
             f"{finding.kind}: [REDACTED]"
             )
 
+            
         if findings and (args.redact_dir or args.in_place):
             redacted = redact_text(text)
 
