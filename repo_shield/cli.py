@@ -137,7 +137,7 @@ def main(argv: list[str] | None = None) -> int:
         for finding in findings:
             print(
                 f"{finding.path}:{finding.line}: "
-                f"{finding.kind}: {finding.value}"
+            f"{finding.kind}: [REDACTED]"
             )
 
         if findings and (args.redact_dir or args.in_place):
