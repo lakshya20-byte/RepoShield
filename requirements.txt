@@ -1,3 +1,2 @@
-# RepoShield uses only the Python standard library.
-# Test dependency:
 pytest==8.3.5
+streamlit==1.50.0
